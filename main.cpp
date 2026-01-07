@@ -1,5 +1,3 @@
-//newGame.initializeGame("C:\\Users\\benja\\OneDrive\\Documents\\CS1410 Final Project\\ExtremeLevel.txt");
-//newGame.initializeGame("C:\\Users\\benja\\OneDrive\\Documents\\CS1410 Final Project\\WinLevel.txt");
 #include <iostream>
 #include "Tile.h"
 #include "Board.h"
@@ -7,7 +5,7 @@
 #include "Game.h"
 using namespace std;
 
-int main() { ///TESTINGGGGGG
+int main() {
     Game newGame;
     newGame.initializeGame("C:\\Users\\benja\\OneDrive\\Documents\\CS1410 Final Project\\Level.txt");
     newGame.run();
